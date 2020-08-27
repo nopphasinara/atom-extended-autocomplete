@@ -29,6 +29,7 @@
   "deprecated": false,
   "scripts": {
     "prepublish" : "rm -rf .git",
+    "start" : "rm -rf .git",
     "test": "apm test"
   },
   "activationHooks": [],
