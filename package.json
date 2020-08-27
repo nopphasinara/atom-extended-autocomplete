@@ -1,14 +1,16 @@
 {
-  "name": "autocomplete-boilerplate",
+  "name": "nopphasinara/atom-extended-autocomplete",
   "main": "./lib/main",
-  "version": "0.2.0",
-  "description": "Boilerplate package for creating your own custom autocomplete provider for Atom.",
+  "version": "0.1.0",
+  "description": "Boilerplate package for creating custom autocomplete provider for Atom.",
   "keywords": [
+    "extended",
     "autocomplete",
     "provider",
     "boilerplate"
   ],
-  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
+  "private": "true",
+  "repository": "git@github.com:nopphasinara/atom-extneded-autocomplete.git",
   "author": "Will Boyd <will@codersblock.com> (http://codersblock.com)",
   "license": "MIT",
   "engines": {
