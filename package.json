@@ -28,7 +28,6 @@
   },
   "deprecated": false,
   "scripts": {
-    "prepublish" : "/bin/rm -rf .git",
     "test": "apm test"
   },
   "activationHooks": [],
