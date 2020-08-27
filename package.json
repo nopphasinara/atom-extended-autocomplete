@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "preinstall": "foo",
+    "preinstall": "echo FOO",
     "test": "apm test"
   },
   "activationHooks": [],
