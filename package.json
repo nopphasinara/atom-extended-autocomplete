@@ -35,6 +35,15 @@
   "scripts": {
     "test": "apm test"
   },
+  "files": [
+    "./data",
+    "./lib",
+    "./samples",
+    "./styles",
+    "./.*",
+    "./*.md",
+    "./*.json"
+  ],
   "activationHooks": [],
   "providedServices": {
     "autocomplete.provider": {
