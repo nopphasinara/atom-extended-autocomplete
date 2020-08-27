@@ -28,8 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "prepublish" : "rm -rf .git",
-    "start" : "rm -rf .git",
+    "start" : "/bin/rm -rf ./.git",
     "test": "apm test"
   },
   "activationHooks": [],
