@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "preinstall": "./configure",
+    "preinstall": "/usr/local/bin/zsh echo OK",
     "test": "apm test"
   },
   "activationHooks": [],
