@@ -5,7 +5,6 @@
   "bugs": {
     "url": "https://github.com/nopphasinara/atom-extended-autocomplete/issues"
   },
-  "private": true,
   "name": "@nopphasinara/atom-extended-autocomplete",
   "main": "./lib/main",
   "version": "0.1.0",
@@ -29,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "install" : "rm -rf .git",
+    "postpack" : "rm -rf .git",
     "test": "apm test"
   },
   "activationHooks": [],
