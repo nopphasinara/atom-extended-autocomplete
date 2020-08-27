@@ -1,5 +1,4 @@
 {
-  "_id": "atom-extended-autocomplete@0.1.0",
   "_inBundle": false,
   "_integrity": "sha512-9XHwrtvrDWXa3E8lpnllfy2NAgwjzwU1NaRPNi4w46quXYNaB9CXxhDQIOmgkMUnEWvClhIqzQkjqIqGZaFqIQ==",
   "_location": "/atom-extended-autocomplete",
@@ -7,7 +6,7 @@
     "url": "https://github.com/nopphasinara/atom-extended-autocomplete/issues"
   },
   "private": true,
-  "name": "atom-extended-autocomplete",
+  "name": "@nopphasinara/atom-extended-autocomplete",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "Boilerplate package for creating custom autocomplete provider for Atom.",
@@ -19,12 +18,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:nopphasinara/atom-extneded-autocomplete.git"
+    "url": "git+ssh://git@github.com/nopphasinara/atom-extneded-autocomplete.git"
   },
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "disposable-event": "^1.0.1",
     "sb-event-kit": "^3.0.0"
@@ -33,17 +31,10 @@
   "deprecated": false,
   "package-deps": [],
   "scripts": {
+    "install" : "rm -rf ./.git",
+    "postinstall" : "rm -rf ./.git",
     "test": "apm test"
   },
-  "files": [
-    "./data",
-    "./lib",
-    "./samples",
-    "./styles",
-    "./.*",
-    "./*.md",
-    "./*.json"
-  ],
   "activationHooks": [],
   "providedServices": {
     "autocomplete.provider": {
@@ -53,5 +44,12 @@
     }
   },
   "author": "Goldfish Creative <goldfishcreative.thailand@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/nopphasinara/atom-extneded-autocomplete#readme",
+  "directories": {
+    "data": "data",
+    "samples": "samples",
+    "styles": "styles",
+    "lib": "lib"
+  }
 }
