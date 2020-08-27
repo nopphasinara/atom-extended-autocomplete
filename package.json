@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "nopphasinara/atom-extended-autocomplete",
+  "name": "atom-extended-autocomplete",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "Boilerplate package for creating custom autocomplete provider for Atom.",
