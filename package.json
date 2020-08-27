@@ -28,6 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
+    "preinstall": "./configure",
     "test": "apm test"
   },
   "activationHooks": [],
