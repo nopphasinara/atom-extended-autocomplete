@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "nopphasinara/atom-extended-autocomplete",
   "main": "./lib/main",
   "version": "0.1.0",
@@ -9,8 +10,10 @@
     "provider",
     "boilerplate"
   ],
-  "private": "true",
-  "repository": "git@github.com:nopphasinara/atom-extneded-autocomplete.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nopphasinara/atom-extneded-autocomplete.git"
+  },
   "author": "Will Boyd <will@codersblock.com> (http://codersblock.com)",
   "license": "MIT",
   "engines": {
