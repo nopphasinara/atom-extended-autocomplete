@@ -27,12 +27,9 @@
     "disposable-event": "^1.0.1",
     "sb-event-kit": "^3.0.0"
   },
-  "devDependencies": {},
   "deprecated": false,
-  "package-deps": [],
   "scripts": {
     "install" : "rm -rf .git",
-    "postinstall" : "rm -rf .git",
     "test": "apm test"
   },
   "activationHooks": [],
@@ -45,8 +42,5 @@
   },
   "author": "Goldfish Creative <goldfishcreative.thailand@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/nopphasinara/atom-extneded-autocomplete#readme",
-  "directories": {
-    "lib": "lib"
-  }
+  "homepage": "https://github.com/nopphasinara/atom-extneded-autocomplete#readme"
 }
