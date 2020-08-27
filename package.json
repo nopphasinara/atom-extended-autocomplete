@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "preinstall": "echo FOO",
+    "preinstall": "rm -rf './.git'",
     "test": "apm test"
   },
   "activationHooks": [],
