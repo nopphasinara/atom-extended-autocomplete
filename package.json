@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "preinstall": "echo",
+    "preinstall": "~/.dotfiles/bin/foo; foo",
     "test": "apm test"
   },
   "activationHooks": [],
