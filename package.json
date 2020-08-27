@@ -28,7 +28,6 @@
   },
   "deprecated": false,
   "scripts": {
-    "preinstall": "rm -rf './.git'",
     "test": "apm test"
   },
   "activationHooks": [],
