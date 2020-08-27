@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "start": "npm run test",
+    "install": "npm run test",
     "test": "apm test"
   },
   "activationHooks": [],
