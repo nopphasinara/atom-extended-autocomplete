@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "postinstall": "npm run test",
+    "postinstall": "./foo",
     "test": "apm test"
   },
   "activationHooks": [],
