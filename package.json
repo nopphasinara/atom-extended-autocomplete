@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nopphasinara/atom-extneded-autocomplete.git"
+    "url": "git@github.com:nopphasinara/atom-extneded-autocomplete.git"
   },
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
