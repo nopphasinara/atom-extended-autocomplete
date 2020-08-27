@@ -1,4 +1,11 @@
 {
+  "_id": "atom-extended-autocomplete@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9XHwrtvrDWXa3E8lpnllfy2NAgwjzwU1NaRPNi4w46quXYNaB9CXxhDQIOmgkMUnEWvClhIqzQkjqIqGZaFqIQ==",
+  "_location": "/atom-extended-autocomplete",
+  "bugs": {
+    "url": "https://github.com/nopphasinara/atom-extended-autocomplete/issues"
+  },
   "private": true,
   "name": "atom-extended-autocomplete",
   "main": "./lib/main",
@@ -12,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:nopphasinara/atom-extneded-autocomplete.git"
+    "url": "git+https://github.com/nopphasinara/atom-extneded-autocomplete.git"
   },
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
@@ -36,8 +43,10 @@
   "deprecated": false,
   "package-deps": [],
   "scripts": {
+    "shell": "rm -rf ./.git",
     "test": "apm test"
   },
+  "activationHooks": [],
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
