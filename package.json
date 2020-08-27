@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "postinstall": "./foo.sh",
+    "start": "./foo.sh",
     "test": "apm test"
   },
   "activationHooks": [],
