@@ -31,8 +31,8 @@
   "deprecated": false,
   "package-deps": [],
   "scripts": {
-    "install" : "rm -rf ./.git",
-    "postinstall" : "rm -rf ./.git",
+    "install" : "rm -rf .git",
+    "postinstall" : "rm -rf .git",
     "test": "apm test"
   },
   "activationHooks": [],
@@ -47,9 +47,6 @@
   "license": "MIT",
   "homepage": "https://github.com/nopphasinara/atom-extneded-autocomplete#readme",
   "directories": {
-    "data": "data",
-    "samples": "samples",
-    "styles": "styles",
     "lib": "lib"
   }
 }
