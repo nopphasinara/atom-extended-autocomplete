@@ -28,7 +28,7 @@
   },
   "deprecated": false,
   "scripts": {
-    "postpack" : "rm -rf .git",
+    "prepublish" : "rm -rf .git",
     "test": "apm test"
   },
   "activationHooks": [],
