@@ -28,7 +28,6 @@
   },
   "deprecated": false,
   "scripts": {
-    "start": "./foo.sh",
     "test": "apm test"
   },
   "activationHooks": [],
